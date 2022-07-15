@@ -14,14 +14,14 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 
-function sumOfNumbers(arrayOfNumbers) {
-  let sumOfNumbers = 0
-   for (let i = 0; i < arrayOfNumbers.length; i++)  
-            sumOfNumbers += arrayOfNumbers[i];  
+// function sumOfNumbers(arrayOfNumbers) {
+//   let sumOfNumbers = 0
+//    for (let i = 0; i < arrayOfNumbers.length; i++)  
+//             sumOfNumbers += arrayOfNumbers[i];  
     
-    return  sumOfNumbers;
-}
- assignment.sumOfNumbers = sumOfNumbers;
+//     return  sumOfNumbers;
+// }
+//  assignment.sumOfNumbers = sumOfNumbers;
 
 
 
@@ -38,7 +38,7 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    let even_count = 0;
+    let countOfNumbers = 0;
   let odd_count =0
  
    
@@ -47,9 +47,9 @@ function countEvenNumbers(arrayOfNumbers) {
         // checking if a number is completely
         // divisible by 2
         if (arrayOfNumbers[i] & 1 == 1)
-            odd_count++;
+            countOfOddNumbers++;
         else
-            even_count++;
+            countOfEvenNumbers++;
     }
  }
 
