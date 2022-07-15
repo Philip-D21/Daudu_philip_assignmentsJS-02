@@ -38,19 +38,13 @@ const assignment = {};
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    let countOfNumbers = 0;
-  let odd_count =0
- 
-   
-    for (let i = 0; i < arrayOfNumbers; i++) {
-         
-        // checking if a number is completely
-        // divisible by 2
-        if (arrayOfNumbers[i] & 1 == 1)
-            countOfOddNumbers++;
-        else
-            countOfEvenNumbers++;
-    }
+
+    for (i = 0; i < arrayOfNumbers.length; i++) {
+        if (arraryOfNumbers[i] % 2 === 0) {
+            countEvenNumbers++;
+        }
+    return arrayOfNumbers; // <--- here
+}
  }
 
 assignment.countEvenNumbers = countEvenNumbers;
